@@ -1,0 +1,12 @@
+d={}
+marks={
+    "harry":100,
+    "subham":56,
+    "rohan":78
+}
+print(marks,type(marks))
+print(marks["harry"])
+print(marks.items())
+print(marks.keys())
+print(marks.values())
+print(marks.get("harry"))
